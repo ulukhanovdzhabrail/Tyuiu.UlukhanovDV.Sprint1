@@ -1,0 +1,25 @@
+﻿using Tyuiu.UlukhanovDV.Sprint1.Task6.V18.Lib;
+// See https://aka.ms/new-console-template for more information
+DataService ds = new DataService();
+Console.Title = "Спринт #1 | Выполнил: Улуханов Д. В. | СМАРТб-25-1";
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* Спринт #1                                                               *");
+Console.WriteLine("* Тема: Работа со строками класс String                                  *");
+Console.WriteLine("* Задание #6                                                              *");
+Console.WriteLine("* Вариант #18                                                             *");
+Console.WriteLine("* Выполнил: Улуханов Джабраил Вагифович | СМАРТб-25-1                     *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* УСЛОВИЕ:                                                                *");
+Console.WriteLine("* Написать программу: пользователь вводит текст. Проверить, что строка    *");
+Console.WriteLine("* является символьным представлением натурального числа                   *");
+Console.WriteLine("*                                                                         *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("Введите текст:");
+string str = Console.ReadLine();
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine(ds.CheckNumber(str));
+Console.ReadKey();
