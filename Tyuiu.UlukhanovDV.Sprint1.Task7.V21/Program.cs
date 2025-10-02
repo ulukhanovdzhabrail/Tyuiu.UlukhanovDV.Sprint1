@@ -1,0 +1,26 @@
+﻿using Tyuiu.UlukhanovDV.Sprint1.Task7.V21.Lib;
+// See https://aka.ms/new-console-template for more information
+DataService ds = new DataService();
+Console.Title = "Спринт #1 | Выполнил: Улуханов Д. В. | СМАРТб-25-1";
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* Спринт #1                                                               *");
+Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту                 *");
+Console.WriteLine("* Задание #7                                                              *");
+Console.WriteLine("* Вариант #21                                                             *");
+Console.WriteLine("* Выполнил: Улуханов Джабраил Вагифович | СМАРТб-25-1                     *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* УСЛОВИЕ:                                                                *");
+Console.WriteLine("* Написать программу, которая вычисляет математическое выражение          *");
+Console.WriteLine("* по исходным значениям данных, вводимых пользователем.                   *");
+Console.WriteLine("*                                                                         *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("Формула");
+double x, y;
+Console.WriteLine("Введите значение Х:");
+x = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите значение Y:");
+y = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine(ds.Calculate(x, y));
+Console.ReadKey();
